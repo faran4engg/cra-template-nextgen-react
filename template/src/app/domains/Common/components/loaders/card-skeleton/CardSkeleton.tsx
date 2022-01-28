@@ -1,10 +1,10 @@
-import { FC, ReactElement } from 'react';
+import { FC } from 'react';
 import SkeletonBody from './SkeletonBody';
 
 import { CardSkeletonProps } from './types';
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
-const CardSkeleton: FC<CardSkeletonProps> = ({ noOfCards }): ReactElement =>
+const CardSkeleton: FC<CardSkeletonProps> = ({ noOfCards }): any =>
     Array(noOfCards)
         .fill('-')
         .map((_, i) => (
