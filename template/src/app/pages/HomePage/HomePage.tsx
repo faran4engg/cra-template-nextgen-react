@@ -1,7 +1,7 @@
 import { FC } from 'react';
 import { SvgIcon } from 'app/domains/Common/components/svg-icon';
 
-const HomePage: FC = () => {
+const HomePage: FC = () => (
 	<>
 	 <span className="text-2xl font-bold text-green-700">
           &nbsp;Discord&nbsp;
@@ -19,6 +19,6 @@ const HomePage: FC = () => {
         <SvgIcon className="w-24 h-8" icon="DiscordIcon" />
       </a>
 	</>
-};
+);
 
 export default HomePage;
