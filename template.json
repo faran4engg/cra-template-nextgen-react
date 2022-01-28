@@ -56,25 +56,20 @@
       "*.{js,css,md,jsx,ts,tsx,json}": "prettier --write"
     },
     "scripts": {
-      "__comment1__start__": "start-script",
-      "start": "npm-run-all start:tw -l -p start:p:*",
-      "start:tw": "postcss ./src/assets/css/tailwind.src.css -o ./src/assets/css/tailwind.css",
-      "start:p:w-tw": "onchange 'tailwind.config.js' 'src/**/*.css' -e './src/assets/css/tailwind.css' -- npm run start:tw",
-      "start:p:react": "set PORT=3000 && react-scripts start",
-      "__comment1__end__": "start-script",
+      "start": "react-scripts start",
+
       "test": "react-scripts test a",
       "eject": "react-scripts eject",
+
       "start:prod": "npm run build && serve -s build",
+
       "check:ts": "tsc --noEmit",
       "eslint": "eslint --ext js,ts,tsx",
       "prettier": "prettier --write src",
       "lint": "npm run eslint src",
       "lint:fix": "npm run eslint --fix src && npm run prettier",
-      "__comment2__start__": "build-script",
-      "build": "run-s build:** -l",
-      "build:a:tw": "cross-env NODE_ENV=production npm run start:tw",
-      "build:b:react": "react-scripts build",
-      "__comment2__end__": "build-script"
+
+      "build": "react-scripts build"
     }
   }
 }
