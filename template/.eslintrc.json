@@ -1,0 +1,40 @@
+{
+    "settings": {
+        "react": {
+            "version": "detect"
+        }
+    },
+    "env": {
+        "browser": true,
+        "es2021": true,
+        "jest": true
+    },
+    "globals": {
+        "JSX": true
+    },
+    "extends": ["plugin:react/recommended", "standard", "prettier"],
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": "latest",
+        "sourceType": "module"
+    },
+    "plugins": ["react", "@typescript-eslint"],
+    "rules": {
+        "react/react-in-jsx-scope": "off",
+        "react/display-name": "off",
+        "no-unused-vars": "off",
+        "@typescript-eslint/no-unused-vars": ["error"],
+        "react/boolean-prop-naming": ["error", { "rule": "^(is|has)[A-Z]([A-Za-z0-9]?)+" }],
+        "react/jsx-indent": ["error", 4],
+        "react/destructuring-assignment": ["warn"],
+        "react/no-array-index-key": ["error"],
+        "react/jsx-no-undef": ["error", { "allowGlobals": true }],
+        "react/jsx-pascal-case": ["error"],
+        "no-console": "error",
+        "max-lines": ["error", { "max": 200, "skipBlankLines": true, "skipComments": true }],
+        "@typescript-eslint/explicit-module-boundary-types": ["error"]
+    }
+}

@@ -1,0 +1,37 @@
+# Don't check auto-generated stuff into git
+coverage
+build
+node_modules
+stats.json
+.pnp
+.pnp.js
+
+
+# firebase
+firebase.json
+.firebaserc
+/.firebase
+*.cache
+firebase-debug.log
+
+ #tailwind dev build
+/src/assets/css/tailwind.css
+
+# misc
+.DS_Store
+debug.log*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.eslintcache
+.gitattributes
+
+
+.env.development.local
+.env.test.local
+.env.production.local
+
+# boilerplate internals
+generated-cra-app
+.cra-template-rb
+template

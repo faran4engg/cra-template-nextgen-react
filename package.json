@@ -1,0 +1,44 @@
+{
+  "name": "cra-nextgen-react",
+  "version": "0.0.1",
+  "author": {
+    "name": "Faran",
+    "url": "https://github.com/faran4engg/"
+  },
+  "keywords": [
+    "react",
+    "create-react-app",
+    "template",
+    "tailwind",
+    "react-query",
+    "typescript"
+  ],
+  "description": "The base template for Create React App with tailwind and React Query",
+  "main": "template.json",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/faran4engg/cra-nextgen-react"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=16"
+  },
+  "bugs": {
+    "url": "https://github.com/faran4engg/cra-nextgen-react/issues"
+  },
+  "files": [
+    "template",
+    "template.json"
+  ],
+  "plugins": [
+    "@semantic-release/commit-analyzer",
+    "@semantic-release/release-notes-generator",
+    "@semantic-release/changelog",
+    "@semantic-release/npm",
+    "@semantic-release/git"
+  ],
+  "contributors": [
+    "Faran Shaikh <faran.developer@gmail.com> (https://github.com/faran4engg)",
+    "Fayez Baig <fayezbaig16@gmail.com> (https://github.com/fayez-baig)"
+  ]
+}

@@ -1,0 +1,7 @@
+.aspect-ratio-box {
+    position: relative;
+    padding-top: 56.25%;
+}
+.image {
+    position: absolute;
+}
