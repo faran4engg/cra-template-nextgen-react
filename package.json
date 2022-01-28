@@ -9,9 +9,9 @@
     "react",
     "create-react-app",
     "template",
-    "tailwind",
     "react-query",
-    "typescript"
+    "typescript",
+    "tailwind"
   ],
   "description": "The base template for Create React App with tailwind and React Query",
   "main": "template.json",
