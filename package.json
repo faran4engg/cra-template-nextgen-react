@@ -1,6 +1,6 @@
 {
-  "name": "cra-nextgen-react",
-  "version": "1.0.3",
+  "name": "cra-template-nextgen-react",
+  "version": "1.0.0",
   "author": {
     "name": "Faran",
     "url": "https://github.com/faran4engg/"
@@ -17,14 +17,14 @@
   "main": "template.json",
   "repository": {
     "type": "git",
-    "url": "https://github.com/faran4engg/cra-nextgen-react"
+    "url": "https://github.com/faran4engg/cra-template-nextgen-react"
   },
   "license": "MIT",
   "engines": {
     "node": ">=16"
   },
   "bugs": {
-    "url": "https://github.com/faran4engg/cra-nextgen-react/issues"
+    "url": "https://github.com/faran4engg/cra-template-nextgen-react/issues"
   },
   "files": [
     "template",
