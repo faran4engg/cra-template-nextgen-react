@@ -14,11 +14,11 @@ const HomePage: FC = () => (
         <a
             href="https://discord.gg/SMsZ9Hx4d5"
             target="_blank"
-            className="flex items-center px-4 mx-auto bg-orange-300 rounded cursor-pointer hover:bg-lime-300 animate-zoomInOut"
+            className="flex items-center px-4 mx-auto text-black bg-yellow-300 rounded cursor-pointer hover:bg-lime-300 animate-zoomInOut"
             aria-label="Join Discord"
             rel="noreferrer"
         >
-            <SvgIcon className="w-24 h-8" icon="DiscordIcon" />
+            Join our community
         </a>
     </>
 );
