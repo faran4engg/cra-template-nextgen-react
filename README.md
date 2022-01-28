@@ -20,7 +20,7 @@
 > Please navigate to project folder folder and run below command to install `node_modules` in order to run this app locally.
 
 ```shell
-$ npx create-react-app my-app --template cra-template-nextgendevtech-tailwind
+$ npx create-react-app my-app --template cra-nextgen-react
 ```
 
 > Once node dependencies are installed then please open your terminal and run `npm start` for a development server.
