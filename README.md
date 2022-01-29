@@ -1,4 +1,6 @@
-# Tailwind Stater Template - Typescript
+# CRA multi-purpose template developed by NextGenDev discord mentors
+
+> Technology used: `React 17`, `TypeScript 4`, `TailwindCSS 3`, `React-Query 3`,
 
 ## Installation
 
@@ -11,8 +13,6 @@ npx create-react-app my-app --template cra-template-nextgen-react
 
 > Once node dependencies are installed then please open your terminal and run `npm start` for a development server.
 > Navigate to `http://localhost:3000/`.
-
-> Technology used: `React 17`, `TailwindCSS 3`, `React-Query 3`, `TypeScript`
 
 ---
 

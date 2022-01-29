@@ -13,7 +13,7 @@
     "typescript",
     "tailwind"
   ],
-  "description": "The base template for Create React App with tailwind and React Query",
+  "description": "CRA template developed by NextGenDev discord mentors",
   "main": "template.json",
   "repository": {
     "type": "git",
