@@ -3,7 +3,7 @@
 
 import { Component } from 'react';
 import { SvgIcon } from 'app/domains/Common/components/svg-icon';
-import Button from 'app/domains/Common/components/Forms/button/Button';
+import Button from 'app/domains/Common/components/ui/button/Button';
 
 class ErrorBoundary extends Component {
     constructor(props) {
