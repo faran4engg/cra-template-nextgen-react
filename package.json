@@ -11,7 +11,9 @@
     "template",
     "react-query",
     "typescript",
-    "tailwind"
+    "tailwind",
+    "eslint",
+    "semantic release"
   ],
   "description": "CRA template developed by NextGenDev discord mentors",
   "main": "template.json",
