@@ -1,6 +1,6 @@
 module.exports = {
     content: ['./src/**/*.{js,jsx,ts,tsx}'],
-    darkMode: 'class', // or 'media' or 'class'
+    darkMode: 'class',
     theme: {
         extend: {
             colors: {
@@ -15,10 +15,4 @@ module.exports = {
             },
         },
     },
-    variants: {
-        extend: {
-            lineClamp: ['hover'],
-        },
-    },
-    plugins: [require('@tailwindcss/line-clamp')],
 };
