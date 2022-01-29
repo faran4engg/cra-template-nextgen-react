@@ -1,31 +1,18 @@
 # Tailwind Stater Template - Typescript
 
-> Designed and implemented a production ready application for displaying list of Objects for apartment
-
-> Technology used: `React 17`, `Tailwind CSS`, `React-Query`
-
----
-
-## Table of Contents
-
-- [Installation](#installation)
-- [BrowserList](#browserlist)
-
----
-
 ## Installation
 
-> To proceed with smooth installation you should have Node 8+ version installed in your system
-
-> Please navigate to project folder folder and run below command to install `node_modules` in order to run this app locally.
+> To proceed with smooth installation you should have Node 16+ version installed in your system
+> Please navigate to project folder folder and run below command to install `node_modules` in order to use this template with create-react-app.
 
 ```shell
-$ npx create-react-app my-app --template cra-template-nextgen-react
+👉 npx create-react-app my-app --template cra-template-nextgen-react
 ```
+
+> Technology used: `React 17`, `TailwindCSS 3`, `React-Query 3`, `TypeScript`
 
 > Once node dependencies are installed then please open your terminal and run `npm start` for a development server.
 > Navigate to `http://localhost:3000/`.
-> The app will automatically launch if you change any of the source files.
 
 ---
 
@@ -33,9 +20,8 @@ $ npx create-react-app my-app --template cra-template-nextgen-react
 
 > Expected functionality:
 
-- Stater template with sidebar
+- Fully responsive stater template with sidebar
 - Light and Dark mode
-- React Query
 
 #### Best user experience can be enjoyed on:
 
